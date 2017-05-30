@@ -1,0 +1,13 @@
+{
+  "name": "realty",
+  "description": "realty_app",
+  "main": "index.js",
+  "authors": [
+    "petromath77"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/petromath77/realty_angular_app",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

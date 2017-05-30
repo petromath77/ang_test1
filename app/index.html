@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" ng-app="realtApp">
 
 <head>
 
@@ -36,6 +36,7 @@
 	<div id="my-page">
 		<div id="my-header">
 			<header>
+				<div ng-controller="myCtrl"><h1>{{name}}</h1></div>
 				<div class="container head_cont">
 					<a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
 					<a href="#my-menu" class="hamburger hamburger--collapse-r">
@@ -823,6 +824,8 @@
 		</div>
 	</div>
 	<link rel="stylesheet" href="css/main.min.css">
+	<script src="libs/angular/angular.min.js"></script>
+	<script src="js/controllers/realt.controller.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
