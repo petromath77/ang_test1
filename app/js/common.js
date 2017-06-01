@@ -1,25 +1,19 @@
 $(document).ready(function() {
 
 	// Custom JS
-	$('#my-menu').mmenu({
-		extensions: ['theme-dark', 'fx-listitems-slide', 'pagedim-black'],
-		navbar: {
-			title: '<img src="img/logo.png" alt="logo">'
-		},
-		offCanvas: {
-               position  : "right"
-            }
-      });
-	var api = $('#my-menu').data('mmenu');
+ 	
+
+	/*var api = $('#menu').data('panel');
 	api.bind('open:finish', function(){
 		$('.hamburger').addClass('is-active');
 		$('a.logo').css('opacity', '0');
 	}).bind('close:finish', function(){
 		$('.hamburger').removeClass('is-active');
 		$('a.logo').css('opacity', '1');
-	});
+	});*/
         
 	$(".mix_wrap").mixItUp();
+	$('.menu-link').bigSlide();
 
 	$('.filter_wrap li').on('click', function(){
 		$('.filter_wrap li').removeClass('active');

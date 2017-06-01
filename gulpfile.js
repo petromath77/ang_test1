@@ -27,7 +27,7 @@ gulp.task('common-js', function() {
 gulp.task('js', ['common-js'], function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
-		'app/libs/jquery-mmenu/jquery.mmenu.all.min.js',
+		'app/libs/bigSlide/bigSlide.min.js',
 		'app/libs/magnific-popup/jquery.magnific-popup.min.js',
 		'app/libs/jqBootstrapValidation/jqBootstrapValidation.js',
 		'app/libs/mixitup/mixitup.min.js',
