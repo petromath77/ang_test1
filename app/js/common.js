@@ -11,14 +11,29 @@ $(document).ready(function() {
 		$('.hamburger').removeClass('is-active');
 		$('a.logo').css('opacity', '1');
 	});*/
-        
-	$(".mix_wrap").mixItUp();
+     $('#trig_mix').on('click', function(){
+             $(".mix_wrap").mixItUp({
+                 controls: {
+                     enable: true
+                 },
+                 layout: {
+                     display: "inline-block"
+                 },
+                 callbacks: {
+                     onMixLoad: function(){
+                         alert("Load!");
+                     }
+                 }
+             });
+
+     });
+    $('.filter_wrap li').on('click', function(){
+        $('.filter_wrap li').removeClass('active');
+        $(this).addClass('active');
+    });
+
 	$('.menu-link').bigSlide();
 
-	$('.filter_wrap li').on('click', function(){
-		$('.filter_wrap li').removeClass('active');
-		$(this).addClass('active');
-	});
 
 	$(function () { $('input, select, textarea').not('[type=submit]').jqBootstrapValidation(); } );
 
