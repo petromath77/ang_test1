@@ -42,7 +42,23 @@ a.logo
 	top: 20px
 	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before
 		background-color: #868585
-.panel
+nav.panel
+	background-color: #353535
     right: -15.625em
     width: 15.625em
+nav.panel ul
+    list-style-type: none
+    padding: 0
+    li
+    	padding: 5px 0 5px 25px
+    	+transition(all, 0.5s, ease-in-out)
+    	&:hover, 
+    		background-color: #565656
+    	a
+    		+sect_h1($default-font, 16px, 16px, 1px, uppercase)
+    		color: $color_gr_w
+    		letter-spacing: 2px
+.active_nav
+	background-color: #565656
+
 
