@@ -1,0 +1,55 @@
+[
+  {
+    "age": 0,
+    "id": "realt1",
+    "imageUrl": "img/apartments/item1.jpg",
+    "name": "Lorem ipsum dolor amet it bla bla...",
+    "room_desc": "№ of rooms:",
+    "room_desc_num": "1",
+    "area_desc": "Total area:",
+    "area_desc_num": "50 sq.m.",
+    "desc_storeys": "Number of storeys:",
+    "desc_storeys_num": "2",
+    "desc_price": "Price:",
+    "desc_price_num": "200$",
+    "type": "best"
+  },
+  {
+    "age": 1,
+    "id": "gaudet_dress3",
+    "imageUrl": "img/dresses/gaud_3.jpg",
+    "name": "Gaudet Dress №3",
+    "snippet": "Lorem ipsum dolor amet it bla bla...",
+  },
+  {
+    "age": 2,
+    "id": "short_dress4",
+    "imageUrl": "img/dresses/short_4.jpg",
+    "name": "Short Dress №4",
+    "snippet": "Lorem ipsum dolor amet it bla bla...",
+    "type": "best"
+  },
+  {
+    "age": 3,
+    "id": "aline_dress1",
+    "imageUrl": "img/dresses/asilh_1.jpg",
+    "name": "A-Line Dress №1",
+    "snippet": "Lorem ipsum dolor amet it bla bla...",
+  },
+  {
+    "age": 4,
+    "id": "lux_dress2",
+    "imageUrl": "img/dresses/lux_2.jpg",
+    "name": "Luxury Dress №2",
+    "snippet": "Lorem ipsum dolor amet it bla bla...",
+    "type": "best"
+  },
+  {
+    "age": 5,
+    "id": "lux_dress3",
+    "imageUrl": "img/dresses/lux_3.jpg",
+    "name": "Luxury Dress №3",
+    "snippet": "Lorem ipsum dolor amet it bla bla...",
+    "type": "best"
+  }
+]

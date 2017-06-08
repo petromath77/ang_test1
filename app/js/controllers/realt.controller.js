@@ -19,7 +19,7 @@ realtApp.config(['$routeProvider', function($routeProvider){
         })
         .when('/apartments',{
             templateUrl:'template/apartments.html',
-            controller:''
+            controller:'ApartmentsCtrl'
         })
         .when('/testimonials',{
             templateUrl:'template/testimonials.html',
@@ -33,6 +33,8 @@ realtApp.config(['$routeProvider', function($routeProvider){
             redirectTo: '/home'
         });
 }]);
-realtApp.controller('myCtrl', ['$scope',function($scope) {
-    $scope.name = "wewee";
+realtApp.controller('ApartmentsCtrl',['$scope','$http', '$location', function($scope, $http, $location) {
+    $http.get('apartments/apartments.json').success(function(data, status, headers, config) {
+        $scope.apartments = data;
+    });
 }]);

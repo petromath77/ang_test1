@@ -33,7 +33,8 @@ a.logo
 	+sect_h1($default-bold, 18px, 18px, 1px, none)
 	color: $color_w
 	+transition(all, 0.5s, ease-in-out)
-	&:hover,&:focus
+	&:hover,
+	&:focus
 		background-color: #554444
 		color: #b89671
 .hamburger
@@ -42,22 +43,27 @@ a.logo
 	top: 20px
 	.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before
 		background-color: #868585
-nav.panel
+.panel
 	background-color: #353535
     right: -15.625em
     width: 15.625em
-nav.panel ul
-    list-style-type: none
+.panel ul
+    list-style: none
     padding: 0
-    li
-    	padding: 5px 0 5px 25px
-    	+transition(all, 0.5s, ease-in-out)
-    	&:hover, 
-    		background-color: #565656
-    	a
-    		+sect_h1($default-font, 16px, 16px, 1px, uppercase)
-    		color: $color_gr_w
-    		letter-spacing: 2px
+.panel ul li
+		padding: 5px 0 5px 25px
+		+transition(all, 0.5s, ease-in-out)
+		&:hover,
+		&:focus
+			background-color: #565656
+		a
+			+sect_h1($default-font, 16px, 16px, 1px, uppercase)
+			color: $color_gr_w
+			letter-spacing: 2px
+			width: 100%
+			display: block
+			padding: 5px 0
+
 .active_nav
 	background-color: #565656
 
