@@ -11,7 +11,7 @@ realtApp.config(['$routeProvider', function($routeProvider){
     $routeProvider
         .when('/home',{
             templateUrl:'template/home.html',
-            controller:''
+            controller:'ApartmentsCtrl'
         })
         .when('/blog',{
             templateUrl:'template/blog.html',
@@ -38,3 +38,14 @@ realtApp.controller('ApartmentsCtrl',['$scope','$http', '$location', function($s
         $scope.apartments = data;
     });
 }]);
+realtApp.filter('filterBest', function () {
+    return function (items) {
+        var filtered = [];
+        angular.forEach(items, function (item) {
+            if (item.type === "best") {
+                filtered.push(item);
+            }
+        });
+        return filtered;
+    };
+});

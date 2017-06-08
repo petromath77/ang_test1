@@ -2,6 +2,17 @@
 
 var realtApp = angular.module('realtApp', ['ngRoute']);
 
+realtApp.filter('filterBest', function () {
+    return function (items) {
+        var filtered = [];
+        angular.forEach(items, function (item) {
+            if (item.type === "best") {
+                filtered.push(item);
+            }
+        });
+        return filtered;
+    };
+});
 realtApp.filter('filterStudio', function () {
     return function (items) {
         var filtered = [];
