@@ -11,7 +11,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "7",
     "desc_price": "Price:",
-    "desc_price_num": "350$"
+    "desc_price_num": "350$",
+    "type": "studio"
   },
   {
     "age": 1,
@@ -26,7 +27,9 @@
     "desc_storeys_num": "2",
     "desc_price": "Price:",
     "desc_price_num": "400$",
-    "type": "best"
+    "price_type": "best",
+    "type": "two-rooms"
+
   },
   {
     "age": 2,
@@ -40,7 +43,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "3",
     "desc_price": "Price:",
-    "desc_price_num": "350$"
+    "desc_price_num": "350$",
+    "type": "studio"
   },
   {
     "age": 3,
@@ -55,7 +59,8 @@
     "desc_storeys_num": "10",
     "desc_price": "Price:",
     "desc_price_num": "550$",
-    "type": "best"
+    "price_type": "best",
+    "type": "large"
   },
   {
     "age": 4,
@@ -69,7 +74,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "5",
     "desc_price": "Price:",
-    "desc_price_num": "320$"
+    "desc_price_num": "320$",
+    "type": "studio"
   },
   {
     "age": 5,
@@ -83,7 +89,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "4",
     "desc_price": "Price:",
-    "desc_price_num": "360$"
+    "desc_price_num": "360$",
+    "type": "studio"
   },
   {
     "age": 6,
@@ -97,7 +104,9 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "2",
     "desc_price": "Price:",
-    "desc_price_num": "380$"
+    "desc_price_num": "380$",
+    "price_type": "best",
+    "type": "two-rooms"
   },
   {
     "age": 7,
@@ -112,7 +121,8 @@
     "desc_storeys_num": "3",
     "desc_price": "Price:",
     "desc_price_num": "350$",
-    "type": "best"
+    "price_type": "best",
+    "type": "two-rooms"
   },
   {
     "age": 8,
@@ -126,7 +136,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "12",
     "desc_price": "Price:",
-    "desc_price_num": "650$"
+    "desc_price_num": "650$",
+    "type": "large"
   },
   {
     "age": 9,
@@ -140,7 +151,9 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "5",
     "desc_price": "Price:",
-    "desc_price_num": "340$"
+    "desc_price_num": "340$",
+    "price_type": "best",
+    "type": "studio"
   },
   {
     "age": 10,
@@ -154,7 +167,8 @@
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "3",
     "desc_price": "Price:",
-    "desc_price_num": "370$"
+    "desc_price_num": "370$",
+    "type": "two-rooms"
   },
   {
     "age": 11,
@@ -169,6 +183,7 @@
     "desc_storeys_num": "11",
     "desc_price": "Price:",
     "desc_price_num": "500$",
-    "type": "best"
+    "price_type": "best",
+    "type": "large"
   }
 ]

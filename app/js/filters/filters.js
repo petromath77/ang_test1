@@ -1,12 +1,10 @@
 'use strict';
 
-var realtApp = angular.module('realtApp', ['ngRoute']);
-
 realtApp.filter('filterBest', function () {
     return function (items) {
         var filtered = [];
         angular.forEach(items, function (item) {
-            if (item.type === "best") {
+            if (item.price_type === "best") {
                 filtered.push(item);
             }
         });

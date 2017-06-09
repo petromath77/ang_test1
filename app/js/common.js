@@ -18,8 +18,6 @@ $(document).ready(function() {
         $('.cont').addClass('active_nav');
     });
 
-    
-
 	/*
 	$('.hamburger').on('click', function(){
 		$(this).removeClass('is-active');
@@ -48,7 +46,11 @@ $(document).ready(function() {
 
 	$(function () { $('input, select, textarea').not('[type=submit]').jqBootstrapValidation(); } );
 
+
 });
+
+
+
 $(window).on('load', function() { 
 	$('.loader_inner').fadeOut(); 
 	$('.loader').delay(400).fadeOut('slow'); 
