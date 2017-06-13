@@ -34,11 +34,6 @@ $(document).ready(function() {
              });
 
      });
-     
-    $('.filter_wrap li').on('click', function(){
-        $('.filter_wrap li').removeClass('active');
-        $(this).addClass('active');
-    });
 
 */
 	$('.menu-link').bigSlide();

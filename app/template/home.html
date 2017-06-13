@@ -3,7 +3,7 @@
 		<h1>Best Offers</h1>
 		<div class="row" >
 			<div class="col-md-4 item_wrap" ng-repeat="apartment in apartments | filterBest">
-				<a href="#"><img src="{{apartment.imageUrl}}" alt="{{apartment.id}}"></a>
+				<a href="#"><img ng-src="{{apartment.imageUrl}}" alt="{{apartment.id}}"></a>
 				<div class="hidden">
 					<div class="hide_desc">
 						<h2>{{apartment.name}}</h2>

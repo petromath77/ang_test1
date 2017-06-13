@@ -12,7 +12,7 @@
             </div>
             <div class="mix_wrap" ng-repeat="apartment in apartments | filterTwoRooms">
                 <div class="col-md-4 item_wrap_mx">
-                    <a href="#"><img src="{{apartment.imageUrl}}" alt="{{apartment.id}}"></a>
+                    <a href="#"><img ng-src="{{apartment.imageUrl}}" alt="{{apartment.id}}"></a>
                     <div class="hidden">
                         <div class="hide_desc">
                             <h2>{{apartment.name}}</h2>

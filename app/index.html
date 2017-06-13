@@ -44,13 +44,14 @@
 			<div class="head_desc">
 				<h1><span>Your Realt</span> is lorem ipsum dolor sit amet.</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<a href="#/contact" class="cont_butt">Contact</a>
+				<a href="#/contact" class="cont_butt" ng-click="gotoBottom()" ng-controller="ScrollController">Contact</a>
+				<a href="" ng-click="gotoBottom()" ng-controller="ScrollController">adasda</a>
 			</div>
 			<nav id="menu" class="panel" role="navigation">
 				<ul>
 					<li class="active_nav"><a href="#/home">Home</a></li>
 					<li><a href="#/blog">Blog</a></li>
-					<li><a href="#/apartments" id="trig_mix">Apartments</a></li>
+					<li><a href="#/apartments">Apartments</a></li>
 					<li><a href="#/testimonials">Testimonials</a></li>
 					<li class="cont"><a href="#/contact">Contact</a></li>
 				</ul>
@@ -106,7 +107,7 @@
 			</div>
 		</div>
 	</section>
-	<ng-view></ng-view>
+	<ng-view id="bottom"  ng-controller="ScrollController"></ng-view>
 	<footer>
 		<div class="container">
 			<div class="rights">
@@ -121,7 +122,7 @@
 		</div>
 	</footer>
 	<link rel="stylesheet" href="css/main.min.css">
-	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-route/angular-route.js"></script>
 	<script src="bower_components/angular-mocks/angular-mocks.js"></script>
 	<script src="bower_components/angular-resource/angular-resource.min.js"></script>
