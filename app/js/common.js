@@ -2,12 +2,11 @@ $(document).ready(function() {
 
 	// Custom JS
  	
-
-	//var api = $('#menu').data('panel');
 	$('a.hamburger').on('click', function(){
 		var has_cls = $('a.hamburger').hasClass('is-active');
 			!has_cls ? $(this).addClass('is-active') : $(this).removeClass('is-active');
 	});
+
 
 	$('#menu li').on('click', function(){
         $('#menu li').removeClass('active_nav');
@@ -18,33 +17,28 @@ $(document).ready(function() {
         $('.cont').addClass('active_nav');
     });
 
-	/*
-	$('.hamburger').on('click', function(){
-		$(this).removeClass('is-active');
-		$('a.logo').css('opacity', '1');
-	});
 
-     $('a#trig_mix').on('click', function(){
+//check menu is view
+	if($('.advants').is(':visible')){
+		$('.home').addClass('active_nav');
+	}else if($('.blog').is(':visible')){
+		$('.blg').addClass('active_nav');
+	}else if($('.apartments').is(':visible')){
+		$('.aprts').addClass('active_nav');
+	}else if($('.testimonials').is(':visible')){
+		$('.testim').addClass('active_nav');
+	}else{
+		$('.cont').addClass('active_nav');
+	}
+//
 
-             $(".mix_wrap").mixItUp({
-                 callbacks: {
-                     onMixLoad: function(){
-                     }
-                 }
-             });
 
-     });
-
-*/
-	$('.menu-link').bigSlide();
-
+$('.menu-link').bigSlide();
 
 	$(function () { $('input, select, textarea').not('[type=submit]').jqBootstrapValidation(); } );
 
 
 });
-
-
 
 $(window).on('load', function() { 
 	$('.loader_inner').fadeOut(); 

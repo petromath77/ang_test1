@@ -27,7 +27,7 @@ realtApp.config(['$routeProvider', function($routeProvider){
         })
         .when('/contact',{
             templateUrl:'template/contact.html',
-            controller:'ScrollController'
+            controller:''
         })
         .when('/studio',{
             templateUrl:'template/studio.html',
@@ -42,23 +42,12 @@ realtApp.config(['$routeProvider', function($routeProvider){
             controller:'ApartmentsCtrl'
          })
         .otherwise({
-            redirectTo: '/home'
+            redirectTo: ''
         });
 }]);
 realtApp.controller('ApartmentsCtrl',['$scope','$http', '$location','$scope', function($scope, $http, $location) {
     $http.get('apartments/apartments.json').success(function(data, status, headers, config) {
         $scope.apartments = data;
     })
-
 }]);
-realtApp.controller('ScrollController', ['$scope', '$location', '$anchorScroll',
-    function($scope, $location, $anchorScroll) {
-        $scope.gotoBottom = function() {
-            // set the location.hash to the id of
-            // the element you wish to scroll to.
-            $location.hash('bottom');
 
-            // call $anchorScroll()
-            $anchorScroll();
-        };
-    }]);

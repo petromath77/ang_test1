@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="push">
+<body class="push" ng-cloak>
 	<div class="loader">
 		<div class="loader_inner">
 		</div>
@@ -44,70 +44,20 @@
 			<div class="head_desc">
 				<h1><span>Your Realt</span> is lorem ipsum dolor sit amet.</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<a href="#/contact" class="cont_butt" ng-click="gotoBottom()" ng-controller="ScrollController">Contact</a>
-				<a href="" ng-click="gotoBottom()" ng-controller="ScrollController">adasda</a>
+				<a href="#/contact" class="cont_butt">Contact</a>
 			</div>
 			<nav id="menu" class="panel" role="navigation">
 				<ul>
-					<li class="active_nav"><a href="#/home">Home</a></li>
-					<li><a href="#/blog">Blog</a></li>
-					<li><a href="#/apartments">Apartments</a></li>
-					<li><a href="#/testimonials">Testimonials</a></li>
+					<li class="home"><a href="#/home">Home</a></li>
+					<li class="blg"><a href="#/blog">Blog</a></li>
+					<li class="aprts"><a href="#/apartments">Apartments</a></li>
+					<li class="testim"><a href="#/testimonials">Testimonials</a></li>
 					<li class="cont"><a href="#/contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-	<section class="advants">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-1 why_wrap">
-					<h1>Why choose us?</h1>
-					<div class="why_wrap_item">
-						<i class="fa fa-map-marker" aria-hidden="true"></i>
-						<h2>Lorem ipsum dolor sit amet</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-					<div class="why_wrap_item">
-						<i class="fa fa-home" aria-hidden="true"></i>
-						<h2>Lorem ipsum dolor sit amet</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-					<div class="why_wrap_item">
-						<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-						<h2>Lorem ipsum dolor sit amet</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-				</div>
-				<div class="col-md-4 features">
-					<h1>Our features</h1>
-					<div class="feature_wrap">
-						<div class="feature_wrap_desc">
-							<i class="fa fa-check-square-o" aria-hidden="true"></i>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</div>
-						<div class="feature_wrap_desc">
-							<i class="fa fa-check-square-o" aria-hidden="true"></i>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</div>
-						<div class="feature_wrap_desc">
-							<i class="fa fa-check-square-o" aria-hidden="true"></i>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</div>
-						<div class="feature_wrap_desc">
-							<i class="fa fa-check-square-o" aria-hidden="true"></i>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</div>
-						<div class="feature_wrap_desc">
-							<i class="fa fa-check-square-o" aria-hidden="true"></i>
-							<h2>Lorem ipsum dolor sit amet</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<ng-view id="bottom"  ng-controller="ScrollController"></ng-view>
+	<ng-view></ng-view>
 	<footer>
 		<div class="container">
 			<div class="rights">
