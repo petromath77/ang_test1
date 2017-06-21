@@ -41,13 +41,28 @@ realtApp.config(['$routeProvider', function($routeProvider){
         templateUrl:'template/large.html',
             controller:'ApartmentsCtrl'
          })
+        .when('/apartments/:apartmentId', {
+            templateUrl:'template/apartments_detail.html',
+            controller:'ApartmentsDetailCtrl'
+        })
         .otherwise({
-            redirectTo: ''
+            redirectTo: '/home'
         });
 }]);
 realtApp.controller('ApartmentsCtrl',['$scope','$http', '$location','$scope', function($scope, $http, $location) {
     $http.get('apartments/apartments.json').success(function(data, status, headers, config) {
         $scope.apartments = data;
     })
+}]);
+realtApp.controller('ApartmentsDetailCtrl',['$scope','$http', '$location', '$routeParams', function($scope, $http, $location, $routeParams) {
+    $scope.apartmentId = $routeParams.apartmentId;
+    var url = 'apartments/'+$routeParams.apartmentId+'.json';
+    $http.get(url).success(function(data) {
+        $scope.apartment = data;
+        $scope.mainImageUrl = data.images[0];
+    });
+    $scope.setImage = function(imageUrl){
+        $scope.mainImageUrl = imageUrl;
+    }
 }]);
 

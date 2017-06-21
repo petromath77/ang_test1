@@ -1,0 +1,19 @@
+{
+  "id": "studio1",
+  "images": [
+    "img/apartments/item1.jpg",
+    "img/apartments/item1.jpg",
+    "img/apartments/item1.jpg",
+    "img/apartments/item1.jpg"
+  ],
+  "name": "Studio apartment in the city centre",
+  "room_desc": "№ of rooms:",
+  "room_desc_num": "1",
+  "area_desc": "Total area:",
+  "area_desc_num": "45 sq.m.",
+  "desc_storeys": "Number of storeys:",
+  "desc_storeys_num": "7",
+  "desc_price": "Price:",
+  "desc_price_num": "350$",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+}
