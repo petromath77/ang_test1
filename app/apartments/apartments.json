@@ -16,7 +16,7 @@
   },
   {
     "age": 1,
-    "id": "realt2",
+    "id": "two-rooms1",
     "imageUrl": "img/apartments/item2.jpg",
     "name": "Two bedroom apartment with good repair",
     "room_desc": "№ of rooms:",
@@ -33,7 +33,7 @@
   },
   {
     "age": 2,
-    "id": "realt3",
+    "id": "studio2",
     "imageUrl": "img/apartments/item3.jpg",
     "name": "Studio apartment in a modern district",
     "room_desc": "№ of rooms:",
@@ -48,7 +48,7 @@
   },
   {
     "age": 3,
-    "id": "realt4",
+    "id": "large1",
     "imageUrl": "img/apartments/item4.jpg",
     "name": "Large apartment for a good price",
     "room_desc": "№ of rooms:",
@@ -64,7 +64,7 @@
   },
   {
     "age": 4,
-    "id": "realt5",
+    "id": "studio3",
     "imageUrl": "img/apartments/item5.jpg",
     "name": "Studio apartment for a young family",
     "room_desc": "№ of rooms:",
@@ -79,7 +79,7 @@
   },
   {
     "age": 5,
-    "id": "realt6",
+    "id": "studio4",
     "imageUrl": "img/apartments/item6.jpg",
     "name": "Studio apartment in an unusual design",
     "room_desc": "№ of rooms:",
@@ -94,7 +94,7 @@
   },
   {
     "age": 6,
-    "id": "realt7",
+    "id": "two-rooms2",
     "imageUrl": "img/apartments/item7.jpg",
     "name": "Two bedroom apartment with modern repair",
     "room_desc": "№ of rooms:",
@@ -110,7 +110,7 @@
   },
   {
     "age": 7,
-    "id": "realt8",
+    "id": "two-rooms3",
     "imageUrl": "img/apartments/item8.jpg",
     "name": "Two bedroom apartment in a quiet and pleasant area",
     "room_desc": "№ of rooms:",
@@ -126,7 +126,7 @@
   },
   {
     "age": 8,
-    "id": "realt9",
+    "id": "large2",
     "imageUrl": "img/apartments/item9.jpg",
     "name": "Large apartment for a comfortable stay",
     "room_desc": "№ of rooms:",
@@ -141,7 +141,7 @@
   },
   {
     "age": 9,
-    "id": "realt10",
+    "id": "studio5",
     "imageUrl": "img/apartments/item10.jpg",
     "name": "Cosy studio apartment close to the centre",
     "room_desc": "№ of rooms:",
@@ -157,7 +157,7 @@
   },
   {
     "age": 10,
-    "id": "realt11",
+    "id": "tw0-rooms4",
     "imageUrl": "img/apartments/item11.jpg",
     "name": "Two bedroom apartment in a stylish design",
     "room_desc": "№ of rooms:",
@@ -172,7 +172,7 @@
   },
   {
     "age": 11,
-    "id": "realt12",
+    "id": "large3",
     "imageUrl": "img/apartments/item12.jpg",
     "name": "Large apartment in a new residential quarter",
     "room_desc": "№ of rooms:",

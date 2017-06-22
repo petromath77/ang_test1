@@ -1,25 +1,25 @@
 {
-  "id": "studio1",
+  "id": "large1",
   "images": [
-    "img/apartments/item1.jpg",
-    "img/apartments/item1-1.jpg",
-    "img/apartments/item1-2.jpg",
-    "img/apartments/item1-3.jpg",
-    "img/apartments/item1-4.jpg",
-    "img/apartments/item1-5.jpg"
+    "img/apartments/item4.jpg",
+    "img/apartments/item4-1.jpg",
+    "img/apartments/item4-2.jpg",
+    "img/apartments/item4-3.jpg",
+    "img/apartments/item4-4.jpg",
+    "img/apartments/item4-5.jpg"
   ],
-  "name": "Studio apartment in the city centre",
+  "name": "Large apartment for a good price",
   "room_desc": "№ of rooms:",
-  "room_desc_num": "1",
+  "room_desc_num": "3",
   "area_desc": "Total area:",
-  "area_desc_num": "45 sq.m.",
+  "area_desc_num": "80 sq.m.",
   "desc_year": "Year of construction:",
-  "desc_year_num": "1989",
+  "desc_year_num": "1987",
   "desc_condition": "Condition of the apartment:",
   "desc_condition_num": "High",
   "desc_storeys": "Number of storeys:",
-  "desc_storeys_num": "7",
+  "desc_storeys_num": "10",
   "desc_price": "Price:",
-  "desc_price_num": "350$",
+  "desc_price_num": "550$",
   "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
 }
