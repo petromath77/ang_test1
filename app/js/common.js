@@ -27,9 +27,12 @@ $(document).ready(function() {
 		$('.aprts').addClass('active_nav');
 	}else if($('.testimonials').is(':visible')){
 		$('.testim').addClass('active_nav');
-	}else{
+	}else if($('.contact').is(':visible')){
 		$('.cont').addClass('active_nav');
+	}else if($('.apartments_detail').is(':visible')){
+		$('.aprts').addClass('active_nav');
 	}
+
 //
 
 

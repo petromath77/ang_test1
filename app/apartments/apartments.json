@@ -147,7 +147,7 @@
     "room_desc": "№ of rooms:",
     "room_desc_num": "1",
     "area_desc": "Total area:",
-    "area_desc_num": "42 sq.m.",
+    "area_desc_num": "52 sq.m.",
     "desc_storeys": "Number of storeys:",
     "desc_storeys_num": "5",
     "desc_price": "Price:",
@@ -157,7 +157,7 @@
   },
   {
     "age": 10,
-    "id": "tw0-rooms4",
+    "id": "two-rooms4",
     "imageUrl": "img/apartments/item11.jpg",
     "name": "Two bedroom apartment in a stylish design",
     "room_desc": "№ of rooms:",
