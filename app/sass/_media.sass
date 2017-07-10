@@ -4,22 +4,60 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+  .hidden
+    transform: translateX(-500px)
+  .hide_desc
+    h2
+      +sect_h1($default-font, 20px, 24px, 1px, uppercase)
+      margin: 20px 0
+  .button_wrap a.cont_butt
+      margin: 30px 0 0
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
+  .feature_wrap,
+  .why_wrap_item
+    text-align: center
+  .features
+    h1
+      margin-bottom: 30px
+  .why_wrap
+    h1
+      margin-bottom: 30px
 
-
+  .why_wrap
+    margin-bottom: 40px
+  .hide_desc
+    h2
+      +sect_h1($default-font, 16px, 24px, 1px, uppercase)
+      margin: 7px 0
+  .button_wrap a.cont_butt
+    margin: 0px 0 0
+  .blog_desc_wrap
+    margin-bottom: 50px
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
-
-
+  .hidden
+    transform: translateX(-750px)
+  .hide_desc
+    h2
+      +sect_h1($default-font, 20px, 24px, 1px, uppercase)
+      margin: 15px 0
+  .button_wrap a.cont_butt
+    margin: 10px 0 0
+  .item_string
+    margin-bottom: 12px
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
-	/**/
+  .hide_desc
+    h2
+      +sect_h1($default-font, 16px, 20px, 1px, uppercase)
+      margin: 5px 0
+  .button_wrap a.cont_butt
+    margin: 0px 0 0
+  .item_string
+    margin-bottom: 5px
 
 
 /* Custom, iPhone Retina */
