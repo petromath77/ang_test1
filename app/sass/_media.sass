@@ -5,7 +5,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
   .hidden
-    transform: translateX(-500px)
+    transform: translateX(-750px)
   .hide_desc
     h2
       +sect_h1($default-font, 20px, 24px, 1px, uppercase)
@@ -48,6 +48,11 @@
     margin: 10px 0 0
   .item_string
     margin-bottom: 12px
+@media only screen and (max-width : 640px)
+  .head_info
+    font-size: 14px
+    line-height: 15px
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
   .hide_desc
@@ -58,6 +63,18 @@
     margin: 0px 0 0
   .item_string
     margin-bottom: 5px
+  .filter_wrap
+    li
+      margin-left: 10px
+  .head_info
+    font-size: 12px
+    line-height: 14px
+@media only screen and (max-width : 430px)
+  .filter_wrap
+    li
+      &:nth-child(3n)
+        margin-left: 0
+
 
 
 /* Custom, iPhone Retina */
