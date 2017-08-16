@@ -40,6 +40,9 @@ $('.menu-link').bigSlide();
 
 	$(function () { $('input, select, textarea').not('[type=submit]').jqBootstrapValidation(); } );
 
+	$('.panel li, .cont_butt').on('click', function(){
+		$(window).scrollTop(700);
+	});
 
 });
 
