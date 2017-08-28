@@ -4,10 +4,10 @@
         <div class="row">
             <div class="filter_wrap">
                 <ul>
-                    <li><a href="#/apartments" class="active">All Apartments</a></li>
+                    <li><a href="#/apartments">All Apartments</a></li>
                     <li><a href="#/studio">Studio Apartment</a></li>
                     <li><a href="#/two-rooms">Two-Roomed Flat</a></li>
-                    <li><a href="#/large">Large Apartment</a></li>
+                    <li><a href="#/large" class="active">Large Apartment</a></li>
                 </ul>
             </div>
             <div class="mix_wrap" ng-repeat="apartment in apartments | filterLarge">
@@ -34,7 +34,7 @@
                                     <p class="right">{{apartment.desc_price_num}}</p>
                                 </div>
                                 <div class="button_wrap">
-                                    <a href="#" class="cont_butt"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="#/apartments/{{apartment.id}}" class="cont_butt"><i class="fa fa-eye" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>

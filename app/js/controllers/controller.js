@@ -66,3 +66,4 @@ realtApp.controller('ApartmentsDetailCtrl',['$scope','$http', '$location', '$rou
     }
 }]);
 
+

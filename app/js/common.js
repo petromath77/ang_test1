@@ -35,7 +35,6 @@ $(document).ready(function() {
 
 //
 
-
 $('.menu-link').bigSlide();
 
 	$(function () { $('input, select, textarea').not('[type=submit]').jqBootstrapValidation(); } );
