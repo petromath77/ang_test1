@@ -16,6 +16,9 @@ $(document).ready(function() {
         $('#menu li').removeClass('active_nav');
         $('.cont').addClass('active_nav');
     });
+	$('a.det_butt').on('click', function(){
+		alert("!!!");
+	});
 
 
 //check menu is view

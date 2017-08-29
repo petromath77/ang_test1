@@ -65,5 +65,9 @@ realtApp.controller('ApartmentsDetailCtrl',['$scope','$http', '$location', '$rou
         $scope.mainImageUrl = imageUrl;
     }
 }]);
-
+realtApp.controller('formCtrl', function($scope){
+    $scope.user = 'Your Name';
+    $scope.email = 'your@email.com';
+    $scope.message = 'Your Message';
+});
 

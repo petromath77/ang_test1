@@ -28,7 +28,29 @@
                 </div>
                 <h2>Description</h2>
                 <p>{{apartment.description}}</p>
-                <a href="#/apartments"><i class="fa fa-arrow-left" aria-hidden="true"></i></i></a>
+                <div class="contact_wrap_detail">
+                    <h2>If You Liked This Item, Please Contact Us</h2>
+                    <form action="#" class="main_form" ng-controller="formCtrl" name="myForm" novalidate>
+                        <label class="form-group">
+                            <input type="text" name="user"  ng-model="user" required />
+                            <span ng-show="myForm.user.$dirty && myForm.user.$invalid"></span>
+                            <span class="alert" ng-show="myForm.user.$error.required">Username is required.</span>
+                        </label>
+                        <label class="form-group">
+                            <input type="email" name="email" ng-model="email" required>
+                            <span ng-show="myForm.email.$dirty && myForm.email.$invalid"></span>
+                            <span class="alert" ng-show="myForm.email.$error.required">Email is required.</span>
+                            <span class="alert" ng-show="myForm.email.$error.email">Invalid email address.</span>
+                        </label>
+                        <label class="form-group">
+                            <textarea  name ="message" ng-model="message" required /></textarea>
+                            <span ng-show="myForm.message.$dirty && myForm.message.$invalid"></span>
+                            <span class="alert" ng-show="myForm.message.$error.required">Message is required.</span>
+                        </label>
+                        <input class="submit" type="submit" value="Send">
+                    </form>
+                </div>
+                <a class="detail_back" href="#/apartments">< <span>Back To Apartments</span></a>
             </div>
         </div>
     </div>

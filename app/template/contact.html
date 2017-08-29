@@ -20,20 +20,24 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <form action="#" class="main_form" method="post" target="_blank" novalidate>
+                <form action="#" class="main_form" ng-controller="formCtrl" name="myForm" novalidate>
                     <label class="form-group">
-                        <input type="text" name="name" placeholder="Your name"  data-validation-required-message="This field is necessary!"  required />
-                        <span class="help-block text-danger" ></span>
+                        <input type="text" name="user"  ng-model="user" required />
+                        <span ng-show="myForm.user.$dirty && myForm.user.$invalid"></span>
+                        <span class="alert" ng-show="myForm.user.$error.required">Username is required.</span>
                     </label>
                     <label class="form-group">
-                        <input type="text" name="email" placeholder="Your email"  data-validation-required-message="Incorrect email!" data-validation-email-message="email" required />
-                        <span class="help-block text-danger" ></span>
+                        <input type="email" name="email" ng-model="email" required>
+                        <span ng-show="myForm.email.$dirty && myForm.email.$invalid"></span>
+                        <span class="alert" ng-show="myForm.email.$error.required">Email is required.</span>
+                        <span class="alert" ng-show="myForm.email.$error.email">Invalid email address.</span>
                     </label>
                     <label class="form-group">
-                        <textarea  name ="message" placeholder="Your message"  data-validation-required-message="This field is necessary!" required /></textarea>
-                        <span class="help-block text-danger" ></span>
+                        <textarea  name ="message" ng-model="message" required /></textarea>
+                        <span ng-show="myForm.message.$dirty && myForm.message.$invalid"></span>
+                        <span class="alert" ng-show="myForm.message.$error.required">Message is required.</span>
                     </label>
-                    <button>Send</button>
+                    <input class="submit" type="submit" value="Send">
                 </form>
             </div>
         </div>
